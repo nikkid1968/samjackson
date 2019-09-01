@@ -1,3 +1,3 @@
 # samjackson
 Samuel L Jackson Website
-This is an amazing site.
+Awesome site for fans of Samuel L. Jackson.

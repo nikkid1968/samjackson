@@ -1,0 +1,13 @@
+body {
+    background-color:	 #e6ffff;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+} 
+
+blockquote {
+  background-color: aquamarine;
+font-size: 25px;
+}

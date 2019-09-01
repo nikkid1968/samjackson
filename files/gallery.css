@@ -1,0 +1,42 @@
+
+body {
+    background-color: linen;    
+}
+
+p.p1 {
+    font-size: 16pt;
+    color: brown;
+}
+
+#TallSam {
+    float: right;
+    border: 3px goldenrod dashed;
+    /* padding:20px; */
+}
+
+#CrazySam {
+    float: left;
+    border: 4px hotpink solid;
+    margin: 30px 20px 20px 30px
+}
+
+
+
+p.p2 {
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24pt;
+    background-color: chartreuse;
+}
+
+
+nav {
+    background-color: rgb(0, 14, 9);
+    text-align: center;
+    padding: 15px;
+}
+
+nav>a {
+    color: rgb(234, 238, 22);
+}
+

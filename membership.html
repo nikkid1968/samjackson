@@ -1,0 +1,76 @@
+<!Doctype html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="files/membership.css" />
+    <meta charset="utf-8" />
+</head>
+
+<html>
+
+<nav>
+        <a href="index.html"> Home</a> |
+        <a href="C:\Users\Niki\Documents\WGU\C779_Web Development Foundations CIW\Sam Jackson\tables.html">Tables Fully
+            Qualified URL=Absolute Link</a> |
+        <a href="membership.html">Membership Partial=Relative Link</a> |
+        <a href="gallery.html">Photo Gallery</a> |
+
+</nav>
+<h1 background-color="pink;"></h1>
+
+<a href="index.html"><img src="files/join.png" /> </a>
+
+<!-- inline style -->
+<h1 style="color:#cc0099;">Fan Club Membership Form</h1>
+<p style="color:fuchsia;"> Join our fan club membership today</p>
+
+<form method="post"
+        action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+    What is your income?<br />
+    <select name="Income">
+        <option>None of your damn business</option>
+        <option>Breadcrumbs</option>
+        <option>Not as much as I'd like to make</option>
+    </select>
+
+    <p>Which countries have you worked in?</p>
+    <select name="Countries" multiple="multiple" size="8">
+        <option>Australia</option>
+        <option>New Zealand</option>
+        <option>England</option>
+        <option>France</option>
+        <option>India</option>
+        <option>China</option>
+    </select>
+
+    <p>Enter Your Name: <input type="text" name="Name" size="40" /></p>
+<p>What is your telephone US number? <input type="tel" name="Telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" size="14"></p>
+    <p>Enter Your Email: <input type="email" name="Email" size="40" /></p>
+    <p>Today's date: <input type="date" name="date" size="30"/>
+
+    <p> What type of membership?<br />
+        <input type="radio" name="Membership" value="30 Day Trial">30 Day Trial<br>
+        <input type="radio" name="Membership" value="Student-$25/yr">Student-$25/yr<br>
+        <input type="radio" name="Membership" value="Business-$100/yr">Business-$100/yr<br>
+    </p>
+    <p>Tell us about yourself!</p>
+    <p><textarea name="TellUs" cols="88" rows="5">This is a test of putting default text into a textarea</textarea></p>
+
+    <p> What age are you?<br />
+        <input type="checkbox" name="Movies" value="Pulp Fiction">Pulp Fiction<br>
+        <input type="checkbox" name="Movies" value="Django">Django<br>
+        <input type="checkbox" name="Movies" value="Sam Jackson Review">Sam Jackson Review
+    </p>
+    <p>
+ 
+            <input type="color" name="colors" > Color 1<br>
+            <input type="color" name="color"> Color 2 <br>
+
+    </p>
+
+    <input type="submit" />
+    <input type="reset" />
+</form>
+
+</body>
+
+</html>

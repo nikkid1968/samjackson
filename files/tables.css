@@ -32,3 +32,9 @@ h2{
     color:rgb(139, 0, 69);
     text-align: right;
  }
+
+ video
+ {
+height: 300px;
+width: 300px;
+ }

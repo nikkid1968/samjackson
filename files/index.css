@@ -11,3 +11,8 @@ blockquote {
   background-color: aquamarine;
 font-size: 25px;
 }
+
+img
+{
+  width: 50px
+}
